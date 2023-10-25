@@ -5,7 +5,7 @@ import logo from "../The_logo.jpeg";
 
 export default function NavbarWithCTAButton() {
   return (
-    <Navbar fluid rounded>
+    <Navbar className="sticky top-0" fluid rounded>
       <Navbar.Brand href="/">
         <img
           src={logo.src}
