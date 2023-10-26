@@ -114,12 +114,12 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <div className="m-5 md:m-24 md:p-10 ">
+      <div className="m-16 md:m-24 md:p-10 ">
         <h1 className="text-center   text-2xl  md:text-4xl   ">
           ...If so,then you’re in the right place!
         </h1>
       </div>
-      <div className="flex flex-col md:flex-row bg-teal-600 text-white">
+      <div className="flex flex-col md:flex-row-reverse bg-teal-600 text-white">
         <div className="p-10">
           <img
             src={DoctorDummy.src}
