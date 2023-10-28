@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import RootLayout from "./layout";
 import DoctorDummy from "./doctor_dummy.jpg";
 import ButtonComponent from "./components/ButtonComponent";
 // import { Button } from "flowbite-react";

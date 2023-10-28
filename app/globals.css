@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.teal-overlay {
+  position: relative;
+}
+
+.teal-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 128, 128, 0.3); /* Teal color with 50% opacity */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+.teal-overlay > div {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the overlay */
+}

@@ -18,13 +18,13 @@ export default function NavbarWithCTAButton() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link href="#" active>
+        <Navbar.Link href="/" active>
           Start Here
         </Navbar.Link>
         <Navbar.Link href="#">Our Story</Navbar.Link>
         <Navbar.Link href="#">Our Services</Navbar.Link>
         <Navbar.Link href="#">Our Process</Navbar.Link>
-        <Navbar.Link href="#">Our Fees</Navbar.Link>
+        <Navbar.Link href="/fees">Our Fees</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
