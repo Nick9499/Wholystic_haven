@@ -26,7 +26,9 @@ export default function NavbarWithCTAButton() {
           Start Here
         </Navbar.Link>
         <Navbar.Link href="#">Our Story</Navbar.Link>
-        <Navbar.Link href="#">Our Services</Navbar.Link>
+        <Navbar.Link href="/services" active={pathname === "/services"}>
+          Our Services
+        </Navbar.Link>
         <Navbar.Link href="#">Our Process</Navbar.Link>
         <Navbar.Link href="/fees" active={pathname === "/fees"}>
           Our Fees

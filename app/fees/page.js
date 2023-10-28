@@ -1,12 +1,12 @@
 import React from "react";
-import FeesBanner from "../components/Fees/Banner";
+import FeesBanner from "../components/Banner";
 import bgImage from "../doctor.jpg";
 import FAQ from "../components/Fees/FAQ";
 
 const Fees = () => {
   return (
     <div>
-      <FeesBanner bgImage={bgImage.src} />
+      <FeesBanner title="Our Fees" bgImage={bgImage.src} />
       <FAQ />
     </div>
   );
