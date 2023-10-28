@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="mt-5">
       <FeesBanner title="Our Services" bgImage={bgImage.src} />
-      <div className="grid md:grid-cols-3 gap-3 p-3 md:p-10 ">
+      <div className="grid md:grid-cols-3 gap-3 p-5 md:p-10 ">
         <DefaultCard
           title="INDIVIDUAL AND COUPLES THERAPY"
           body="Sessions are offered via telehealth for individual and couples therapy where a comprehensive intake is completed
